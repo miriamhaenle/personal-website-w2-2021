@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,6 @@
   },
   "homepage": "https://github.com/miriamhaenle/personal-website-w2-2021#readme",
   "devDependencies": {
-    "snowpack": "^3.3.1"
+    "vite": "^2.1.5"
   }
 }
