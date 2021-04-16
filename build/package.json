@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriamhaenle/personal-website-w2-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriamhaenle/personal-website-w2-2021/issues"
+  },
+  "homepage": "https://github.com/miriamhaenle/personal-website-w2-2021#readme",
+  "devDependencies": {
+    "snowpack": "^3.3.1"
+  }
+}
