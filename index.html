@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>My personal website</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <h1>Käptn Blaubär</h1>
+        <h1 class="title">Kaept'n Blaubaer</h1>
         <nav>
           <a href="#contact" class="nav-item">Contact</a>
           <a href="#bio" class="nav-item">Bio</a>
@@ -18,41 +23,38 @@
       </nav>
     </header>
 
-    <main>
-      <section>
-        <figure class="profile-image">
-          <a href="">
-            <img
-              src="./images/KaeptnBlaubaer_3.jpeg"
-              alt="Image of the author"
-              width="200"
-            />
-          </a>
-          <a href="">
-            <figcaption>I'm a sailor and adventurer.</figcaption>
-          </a>
+    <main class="container">
+      <section class="profile">
+        <figure class="profile__image">
+          <img src="./assets/KaeptnBlaubaer_3.jpeg" alt="Image of the author" />
+          <figcaption>Me and my gang.</figcaption>
         </figure>
+        <p>Hi there! My name is Käpt'n Blaubär. I'm a sailor and adventurer.</p>
       </section>
 
-      <section>
+      <section class="personal-tags">
         <h2>My Skills</h2>
         <ul class="tags">
-          <li class="tag">Sailing</li>
-          <li class="tag">Adventuring</li>
-          <li class="tag">Storytelling</li>
+          <li class="tag skills">Sailing</li>
+          <li class="tag skills">Adventuring</li>
+          <li class="tag skills">Singing</li>
+          <li class="tag skills">Storytelling</li>
+          <li class="tag skills">Treasure hunting</li>
+          <li class="tag skills">Traveling</li>
+          <li class="tag skills">Cooking pudding</li>
         </ul>
-      </section>
-      <section>
         <h2>My Interests</h2>
         <ul class="tags">
-          <li class="tag">The great sea</li>
-          <li class="tag">Teaching stuff</li>
-          <li class="tag">History of pirates</li>
-          <li class="tag">Watching Sendung mit der Maus</li>
+          <li class="tag interests">The great sea</li>
+          <li class="tag interests">Teaching stuff</li>
+          <li class="tag interests">History of pirates</li>
+          <li class="tag interests">Watching Sendung mit der Maus</li>
+          <li class="tag interests">Oceans and seas</li>
+          <li class="tag interests">Painting</li>
         </ul>
       </section>
 
-      <section id="Contact">
+      <section id="contact" class="contact">
         <h2>Contact me</h2>
         <article>
           <span><strong>Mail</strong></span>
@@ -61,47 +63,48 @@
 
         <article>
           <a href="codepen.io" target="_blank"
-            ><img src="./images/codepen.png" alt="" width="100"
+            ><img src="./assets/codepen.png" alt="" width="100"
           /></a>
           <a href="github.com" target="_blank"
-            ><img src="./images/github.png" alt="" width="100"
+            ><img src="./assets/github.png" alt="" width="100"
           /></a>
           <a href="https://www.linkedin.com/" target="_blank"
-            ><img src="./images/linkedin.svg" alt="" width="100"
+            ><img src="./assets/linkedin.svg" alt="" width="100"
           /></a>
         </article>
       </section>
 
-      <section id="about">
+      <section id="bio" class="about">
         <h2>About me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, cumque.
+          I'm a sailor and adventurer. I like to sail with my best buddy Hein
+          Blöd and my three grandchildren.
         </p>
-      </section>
 
-      <section>
-        <h2>CV</h2>
-        <table>
-          <thead>
-            <td>Year</td>
-            <td>Adventures</td>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1991</td>
-              <td>Sailing to Atlantis</td>
-            </tr>
-            <tr>
-              <td>1992</td>
-              <td>Sailing to the Nordpol</td>
-            </tr>
+        <section class="cv">
+          <h2>CV</h2>
+          <table>
+            <thead>
+              <td>Year</td>
+              <td>Adventures</td>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1991</td>
+                <td>Sailing to Atlantis</td>
+              </tr>
+              <tr>
+                <td>1992</td>
+                <td>Sailing to the Nordpol</td>
+              </tr>
 
-            <tr>
-              <td>1993</td>
-              <td>Fighting with pirates</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>1993</td>
+                <td>Fighting with pirates</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </section>
     </main>
 
