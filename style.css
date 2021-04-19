@@ -49,7 +49,7 @@
 }
 
 body {
-  background-color: mistyrose;
+  background-color: var(--clr-base-100);
   font-family: var(--ff-base, sans-serif);
   font-weight: 100;
   line-height: 1.6;
