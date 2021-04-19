@@ -13,7 +13,7 @@
 
   --clr-primary-100: hsl(197, 34%, 96%);
   --clr-primary-200: hsl(197, 34%, 85%);
-  --clr-primary-400: hsl(197, 51%, 49%)
+  --clr-primary-400: hsl(197, 51%, 49%);
   --clr-primary-600: hsl(197, 34%, 25%);
   --clr-primary-800: hsl(197, 34%, 10%);
 
@@ -25,9 +25,18 @@
 
   --clr-accent-600: hsl(352, 96%, 68%);
 
-
-  --gradient-blue: linear-gradient(50deg, hsl(178, 51%, 47%) 0%, hsl(197, 51%, 49%) 31%, hsl(270, 43%, 34%) 100%);
-  --gradient-blue-hover: linear-gradient(90deg, hsl(178, 51%, 47%) 0%, hsl(197, 51%, 49%) 31%, hsl(270, 43%, 34%) 100%);
+  --gradient-blue: linear-gradient(
+    50deg,
+    hsl(178, 51%, 47%) 0%,
+    hsl(197, 51%, 49%) 31%,
+    hsl(270, 43%, 34%) 100%
+  );
+  --gradient-blue-hover: linear-gradient(
+    90deg,
+    hsl(178, 51%, 47%) 0%,
+    hsl(197, 51%, 49%) 31%,
+    hsl(270, 43%, 34%) 100%
+  );
 
   --ff-accent: 'Sailor';
   --ff-base: 'Noto Sans JP';
@@ -40,7 +49,7 @@
 }
 
 body {
-  background-image: var(--clr-base-100);
+  background-color: hotpink;
   font-family: var(--ff-base, sans-serif);
   font-weight: 100;
   line-height: 1.6;
@@ -63,7 +72,6 @@ figure {
   justify-content: stretch;
   gap: 3rem;
   text-align: center;
-  
 }
 
 .header {
@@ -100,7 +108,7 @@ figure {
   border-image-slice: 1;
   margin: 0 auto;
   max-width: 30rem;
-width: 90vw;
+  width: 90vw;
   text-align: center;
   justify-self: center;
 }
@@ -154,8 +162,8 @@ width: 90vw;
   --fg: var(--clr-base-100);
 }
 
-
-.contact, .about {
+.contact,
+.about {
   padding: 0 0.5rem;
 }
 
@@ -166,6 +174,6 @@ width: 90vw;
   margin: 0 auto;
 }
 
-.cv table{
+.cv table {
   margin: 0 auto;
 }
